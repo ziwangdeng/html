@@ -1,2 +1,2 @@
 # html
-All information are only for research purpose.
+All informations are only for research.
