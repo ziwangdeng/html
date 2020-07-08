@@ -122,7 +122,7 @@
     // Don't show where indicators don't have data
     var indicatorPreRoll = ichimokuIndicator.kijunSen()+ichimokuIndicator.senkouSpanB();
 
-    d3.csv("data.csv", function(error, data) {
+    d3.csv("data1.csv", function(error, data) {
         var accessor = candlestick.accessor();
 
         data = data.map(function(d) {
